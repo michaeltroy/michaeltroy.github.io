@@ -1,0 +1,14 @@
+{
+  "name": "tiny-build",
+  "version": "0.0.1",
+  "description": "Proof of concept. A tiny build.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "duo": "duo *.{js,css} build/",
+    "duo-watch": "duo -g app --watch *.{js,css} build/",
+    "jsx": "jsx --watch build/ out/",
+    "boot": "npm run duo && npm run watch",
+    "watch": "npm run duo-watch | npm run jsx"
+  }
+}

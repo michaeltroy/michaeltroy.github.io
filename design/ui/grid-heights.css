@@ -1,0 +1,45 @@
+/* 320px (4 cols) */
+@media (min-width: 1em) {
+
+  .site-header {
+    margin: 0 0 3em 0;
+  }
+  
+  .site-footer {
+    margin: 3em 0 0 0;
+  } 
+}
+
+/* 480px (6 cols) */
+@media (min-width: 30em) {
+
+  .site-header {
+    height: 6em;
+  }
+  
+  .site-footer {
+    margin: 6em 0 0 0;
+  }  
+}
+
+/* 640px (8 cols) */
+@media (min-width: 40em) {
+
+}
+
+/* 800px (10 cols) */
+@media (min-width: 50em) {
+
+  .site-header {
+    height: 12em;
+  }
+  
+  .site-footer {
+    margin: 12em 0 0 0;
+  }
+}
+
+/* 960px (12 cols) */
+@media (min-width: 60em) {
+
+}

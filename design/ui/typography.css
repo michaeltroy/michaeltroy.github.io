@@ -1,0 +1,196 @@
+/*
+
+320px (4 cols)
+@media (min-width: 1em) { }
+
+480px (6 cols)
+@media (min-width: 30em) { }
+
+640px (8 cols)
+@media (min-width: 40em) { }
+
+800px (10 cols)
+@media (min-width: 50em) { }
+
+960px (12 cols)
+@media (min-width: 60em) { }
+
+*/
+
+
+body {
+  font-family: "ff-basic-gothic-web-pro", sans-serif;
+  /* font-family: "rooney-sans", sans-serif; */
+  color: blue;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+/* --------------------------------
+ * Style resets.
+ */
+
+
+a:link, a:visited		{ 
+  color: #FF6384;
+  text-decoration: none; 
+}
+  
+a:hover		{ }
+a:active	{ }
+a:focus		{ }
+
+p, h1, h2, h3, h4, h5, h6, a {
+
+} 
+
+p {
+  color: rgb(32,32,32);
+	margin: 0;
+}
+
+em {
+	font-style: italic;
+}
+
+abbr {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/** --------------------------------
+ * Header 
+ */
+
+.name-domain, .name-blog {
+  font-weight: 300;
+}
+ 
+a.name-domain {
+  color: black;
+  text-decoration: none;
+}
+
+.name-blog {
+  color: #FF6384;
+}
+
+/* 480px (6 cols) */
+@media (max-width: 30em) {
+  a.name-domain, .name-blog {
+    font-size: 16px;
+  }
+}
+
+/** --------------------------------
+ * Post
+ */
+
+.post header h1 {
+  color: rgb(32,32,32);
+  font-size: 32px;
+  font-weight: 400;
+  margin: 24px 0;
+  line-height: 40px;  
+}
+
+.post-date {
+  font-weight: 200;
+  text-indent: 0;
+  color: #83a2b6;
+  margin: 0 0 16px 0;
+}
+
+/* 480px (6 cols) */
+@media (max-width: 30em) { 
+  .post header h1 {
+    margin: 24px 0 0px 0;
+  }
+}
+
+/** --------------------------------
+ * Copy
+ */
+
+.copy {
+  text-indent: 32px;
+  font-weight: 300;
+}
+
+/** --------------------------------
+ * Code
+ */
+
+
+code {
+  color: #187ACE;
+  font-family: "courier-prime", monospace;
+}
+
+p > code {
+  font-family: "courier-prime", monospace;
+  font-size: 14px;
+  background: #e9eff2;
+  border-radius: 4px;
+  padding: 2px 8px 0 8px;
+  background-clip: padding-box;
+}
+
+
+pre {
+  padding: 24px;
+  margin: 0;
+  background: white;
+}
+
+.highlight {
+  margin: 24px 0;
+  line-height: 16px;
+  padding: 0 0 0 0px;
+  text-indent: 0;
+}
+
+.highlight code {
+  font-size: 14px;
+}
+
+/** --------------------------------
+ * Post list.
+ */
+ 
+.post-list {
+  padding: 0;
+}
+
+.post-list h2 {
+  font-family: "courier-prime", monospace;
+  color: rgb(32,32,32);
+  font-size: 32px;
+  font-weight: 500;
+  margin: 16px 0 0 0;
+  line-height: 40px;
+}
+
+.post-list h2 a {
+  color: #202020;
+}
+
+/** --------------------------------
+ * Footer.
+ */
+
+.copyright, .rss-subscribe {
+  text-indent: 0;
+  color: black;
+  font-weight: 300;
+}
+
+/* 480px (6 cols) */
+@media (max-width: 30em) {
+  .copyright, .rss-subscribe {
+    font-size: 16px;
+  }
+}

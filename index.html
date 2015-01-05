@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="rg-Grid">
+  <div class="rg-Unit rg-Unit--center rg-4of4 rg-7of10">  
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          <p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

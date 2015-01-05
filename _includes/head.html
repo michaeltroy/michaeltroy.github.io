@@ -1,0 +1,28 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <!-- fonts -->
+  <script src="//use.typekit.net/eaw5pht.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <link href="/design/build/index.css" rel="stylesheet" type="text/css">
+  <!-- / fonts. -->
+
+  <!-- vendor scripts -->
+  <script src="/design/vendor/modernizr.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/react/0.12.0/react.js"></script>
+  <!-- / vendor scripts -->
+  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-55717994-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>

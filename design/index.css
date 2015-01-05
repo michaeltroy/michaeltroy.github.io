@@ -1,0 +1,26 @@
+/**
+ * Remotes styles.
+ */
+ 
+@import 'nib-styles/responsive-grid';
+
+/**
+ * Local styles.
+ */
+ 
+@import './ui/pygments.css';
+@import './ui/grid-heights.css';
+@import './ui/typography.css';
+
+/**
+ * Meta-local styles.
+ */
+ 
+body {
+  padding: 24px;
+  background-color: #f5fafa;
+}
+
+.highlight {
+  overflow: auto;
+}
