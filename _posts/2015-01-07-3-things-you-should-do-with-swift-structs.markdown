@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Swift: Structs"
+title:  "3 Things you should do with Swift structs"
 date:   2015-01-17
 categories:
 ---

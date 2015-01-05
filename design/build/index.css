@@ -3568,6 +3568,7 @@ html:before {
 
   .site-header {
     height: 12em;
+    margin: 0;
   }
   
   .site-footer {
@@ -3600,8 +3601,7 @@ html:before {
 
 
 body {
-  font-family: "ff-basic-gothic-web-pro", sans-serif;
-  /* font-family: "rooney-sans", sans-serif; */
+  font-family: "proxima-nova-soft", sans-serif;
   color: blue;
   line-height: 24px;
   font-size: 18px;
@@ -3628,6 +3628,18 @@ p, h1, h2, h3, h4, h5, h6, a {
 p {
   color: rgb(32,32,32);
 	margin: 0;
+}
+
+h1 {
+  
+}
+
+h2 {
+  
+}
+
+h3 {
+  color: #FF6384;
 }
 
 em {
@@ -3673,9 +3685,9 @@ a.name-domain {
 .post header h1 {
   color: rgb(32,32,32);
   font-size: 32px;
-  font-weight: 400;
-  margin: 24px 0;
-  line-height: 40px;  
+  margin: 0 0 104px 0;
+  line-height: 44px;
+  text-align: center;
 }
 
 .post-date {
@@ -3746,13 +3758,11 @@ pre {
   padding: 0;
 }
 
-.post-list h2 {
-  font-family: "courier-prime", monospace;
+.post-list h2 {  
   color: rgb(32,32,32);
   font-size: 32px;
-  font-weight: 500;
-  margin: 16px 0 0 0;
-  line-height: 40px;
+  margin: 24px 0 8px 0;
+  line-height: 44px;  
 }
 
 .post-list h2 a {
