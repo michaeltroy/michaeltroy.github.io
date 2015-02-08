@@ -5,10 +5,9 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "duo": "duo *.{js,css} build/",
-    "duo-watch": "duo -g app --watch *.{js,css} build/",
-    "jsx": "jsx --watch build/ out/",
-    "boot": "npm run duo && npm run watch",
-    "watch": "npm run duo-watch | npm run jsx"
+    "boot": "npm run duo && npm run watch && cd .. && jekyll server",
+    "watch": "npm run duo-watch",
+    "duo": "duo *.{js,css}",
+    "duo-watch": "duo -g app --watch *.{js,css}"
   }
 }

@@ -13,8 +13,3 @@ var Eric = {
 }
 
 module.exports = {Boy: Eric};
-
-/** 
- * Require React component. 
- * var myUi = require('./ui/hello-world.js');
-*/

@@ -98,11 +98,6 @@ var Eric = {
 }
 
 module.exports = {Boy: Eric};
-
-/** 
- * Require React component. 
- * var myUi = require('./ui/hello-world.js');
-*/
 }, {"michaeltroy/carousel-slide":2}],
 2: [function(require, module, exports) {
 var Carousel = require('carousel')
@@ -240,7 +235,9 @@ module.exports = function(el){
  */
 
 function ClassList(el) {
-  if (!el) throw new Error('A DOM element reference is required');
+  if (!el || !el.nodeType) {
+    throw new Error('A DOM element reference is required');
+  }
   this.el = el;
   this.list = el.classList;
 }

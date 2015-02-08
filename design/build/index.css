@@ -3534,6 +3534,10 @@ html:before {
 .highlight .il {
   color: #009999; }
 
+.sally {
+  color: purple;
+}
+
 /* 320px (4 cols) */
 @media (min-width: 1em) {
 
@@ -3580,6 +3584,7 @@ html:before {
 @media (min-width: 60em) {
 
 }
+
 /*
 
 320px (4 cols)
