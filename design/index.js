@@ -9,7 +9,7 @@ var slide = require('michaeltroy/carousel-slide');
  */
 
 var Eric = {
-  name: "my name is ..."
+  name: "my name is Eric"
 }
 
 module.exports = {Boy: Eric};

@@ -17,10 +17,31 @@
  */
  
 body {
-  padding: 24px;
   background-color: #f5fafa;
 }
 
 .highlight {
   overflow: auto;
+}
+
+.image-container {
+  margin: 64px 0;
+  overflow: auto;
+}
+
+.image-container--intro {
+  margin-top: 0 !important;
+}
+
+.image-container img {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 0em) {
+  
+}
+
+@media (min-width: 60em) {
+
 }

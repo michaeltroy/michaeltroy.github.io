@@ -104,9 +104,9 @@ a.name-domain {
 .post header h1 {
   color: rgb(32,32,32);
   font-size: 32px;
-  margin: 0 0 104px 0;
   line-height: 44px;
   text-align: center;
+  font-weight: 600;
 }
 
 .post-date {
@@ -182,6 +182,7 @@ pre {
   font-size: 32px;
   margin: 24px 0 8px 0;
   line-height: 44px;  
+  font-weight: 600;
 }
 
 .post-list h2 a {

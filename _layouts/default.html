@@ -3,13 +3,13 @@
   {% include head.html %}
   <body>
   <div class="rg-Page">
+
     {% include header.html %}
-    <div class="content">
-      {{ content }}
-    </div>
+    <div class="content">{{ content }}</div>
     {% include footer.html %}
   </div>
-
-  <script src="/design/out/index.js"></script>
+  
+  <script src="/design/vendor/modernizr.js"></script>
+  <script src="/design/build/index.js"></script>
   </body>
 </html>

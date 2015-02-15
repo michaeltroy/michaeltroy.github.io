@@ -5,7 +5,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "boot": "npm run duo && npm run watch && cd .. && jekyll server",
+    "boot": "npm run duo && npm run watch",
     "watch": "npm run duo-watch",
     "duo": "duo *.{js,css}",
     "duo-watch": "duo -g app --watch *.{js,css}"

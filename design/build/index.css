@@ -3534,32 +3534,14 @@ html:before {
 .highlight .il {
   color: #009999; }
 
-.sally {
-  color: purple;
-}
-
 /* 320px (4 cols) */
 @media (min-width: 1em) {
 
-  .site-header {
-    margin: 0 0 3em 0;
-  }
-  
-  .site-footer {
-    margin: 3em 0 0 0;
-  } 
 }
 
 /* 480px (6 cols) */
 @media (min-width: 30em) {
 
-  .site-header {
-    height: 6em;
-  }
-  
-  .site-footer {
-    margin: 6em 0 0 0;
-  }  
 }
 
 /* 640px (8 cols) */
@@ -3570,14 +3552,6 @@ html:before {
 /* 800px (10 cols) */
 @media (min-width: 50em) {
 
-  .site-header {
-    height: 12em;
-    margin: 0;
-  }
-  
-  .site-footer {
-    margin: 12em 0 0 0;
-  }
 }
 
 /* 960px (12 cols) */
@@ -3690,9 +3664,9 @@ a.name-domain {
 .post header h1 {
   color: rgb(32,32,32);
   font-size: 32px;
-  margin: 0 0 104px 0;
   line-height: 44px;
   text-align: center;
+  font-weight: 600;
 }
 
 .post-date {
@@ -3768,6 +3742,7 @@ pre {
   font-size: 32px;
   margin: 24px 0 8px 0;
   line-height: 44px;  
+  font-weight: 600;
 }
 
 .post-list h2 a {
@@ -3797,10 +3772,31 @@ pre {
  */
  
 body {
-  padding: 24px;
   background-color: #f5fafa;
 }
 
 .highlight {
   overflow: auto;
+}
+
+.image-container {
+  margin: 64px 0;
+  overflow: auto;
+}
+
+.image-container--intro {
+  margin-top: 0 !important;
+}
+
+.image-container img {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 0em) {
+  
+}
+
+@media (min-width: 60em) {
+
 }
