@@ -1,13 +1,13 @@
 /**
  * Remotes styles.
  */
- 
+
 @import 'nib-styles/responsive-grid';
 
 /**
  * Local styles.
  */
- 
+
 @import './ui/pygments.css';
 @import './ui/grid-heights.css';
 @import './ui/typography.css';
@@ -15,7 +15,7 @@
 /**
  * Meta-local styles.
  */
- 
+
 body {
   background-color: #f5fafa;
 }
@@ -24,8 +24,10 @@ body {
   overflow: auto;
 }
 
+/* Images */
+
 .image-container {
-  margin: 64px 0;
+  margin: 64px 0 0 0;
   overflow: auto;
 }
 
@@ -38,8 +40,19 @@ body {
   float: left;
 }
 
+.image-caption {
+  margin: 14px 0 32px 0;
+}
+
+.image-caption p {
+  text-indent: 0;
+  color: #83a2b6;
+  font-size: 14px;
+  line-height: 20px
+}
+
 @media (min-width: 0em) {
-  
+
 }
 
 @media (min-width: 60em) {

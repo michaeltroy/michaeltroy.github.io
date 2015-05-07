@@ -18,6 +18,11 @@
 
 */
 
+.text-center {
+  text-align: center;
+}
+
+/* START. */
 
 body {
   font-family: "proxima-nova-soft", sans-serif;
@@ -30,18 +35,18 @@ body {
  */
 
 
-a:link, a:visited		{ 
+a:link, a:visited		{
   color: #FF6384;
-  text-decoration: none; 
+  text-decoration: none;
 }
-  
+
 a:hover		{ }
 a:active	{ }
 a:focus		{ }
 
 p, h1, h2, h3, h4, h5, h6, a {
 
-} 
+}
 
 p {
   color: rgb(32,32,32);
@@ -49,11 +54,11 @@ p {
 }
 
 h1 {
-  
+
 }
 
 h2 {
-  
+
 }
 
 h3 {
@@ -73,13 +78,13 @@ ul {
 }
 
 /** --------------------------------
- * Header 
+ * Header
  */
 
 .name-domain, .name-blog {
   font-weight: 300;
 }
- 
+
 a.name-domain {
   color: black;
   text-decoration: none;
@@ -116,7 +121,7 @@ a.name-domain {
 }
 
 /* 480px (6 cols) */
-@media (max-width: 30em) { 
+@media (max-width: 30em) {
   .post header h1 {
     margin: 24px 0 0px 0;
   }
@@ -171,16 +176,16 @@ pre {
 /** --------------------------------
  * Post list.
  */
- 
+
 .post-list {
   padding: 0;
 }
 
-.post-list h2 {  
+.post-list h2 {
   color: rgb(32,32,32);
   font-size: 32px;
   margin: 24px 0 8px 0;
-  line-height: 44px;  
+  line-height: 44px;
   font-weight: 600;
 }
 
