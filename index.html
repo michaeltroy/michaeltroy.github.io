@@ -3,16 +3,26 @@ layout: default
 ---
 
 <div class="rg-Grid">
-  
-  <div class="rg-Unit rg-Unit--center rg-4of4 rg-8of10 rg-p4at4">
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-          <p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
-        </li>
-      {% endfor %}
-    </ul>
+  {% for post in site.posts %}
+    <!-- Post heading -->
+    <div class="rg-Unit rg-Unit--center rg-4of4 rg-8of10 rg-px4at4 rg-pt5at8 rg-pb0at8 rg-px4at8 text-center">
+      <div class="post">
+        <header class="post-heading">
+            <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+            <p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
+        </header>
+      </div>
+    </div>
+    <!-- END Post heading -->
 
-  </div>
+    <!-- Post content -->
+    <div class="rg-Unit rg-Unit--center rg-4of4 rg-8of10 rg-p4at4">
+      <article class="post-content copy">
+        {{ post.content }}
+      </article>
+
+      <p class="rg-py4at4 text-center"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}/#comments">Comment on this post</a>
+    </div>
+    <!-- END Post content -->
+  {% endfor %}
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The 10 thousand dollar logo"
+title:  "Naming a project"
 date:   2015-05-07
 categories:
 ---
