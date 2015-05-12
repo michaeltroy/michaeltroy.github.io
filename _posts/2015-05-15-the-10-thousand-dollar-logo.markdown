@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "The 10 thousand dollar logo"
-date:   2015-05-07
-categories:
+date:   2015-05-15
 ---
 
 It’s kinda odd the things that pop into your head at 2am on a Thursday morning, while trying to sleep. This time it was why I’d never design a logo for less than $5,000. I reasoned it simply wasn’t worth the effort I would want to invest in such a project. It didn’t reconcile. I held that thought for a brief moment, then I bumped that figure to $10,000. Yeah, that felt about right to me.
