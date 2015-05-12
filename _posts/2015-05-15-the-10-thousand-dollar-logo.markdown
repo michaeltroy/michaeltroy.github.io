@@ -10,7 +10,7 @@ I held that $5,000 number in my mind for a brief moment, only to bump the figure
 
 I can hear the gasps “Whoa, 10 thousand is ridiculous”. OK, sure I understand that but I’ll put it this way, I can guarantee with 100% certainty there are many designers out there that would be inversely horrified and would say that $10,000 isn’t nearly enough. Fair I say.
 
-<p class="break break-subhead">Let’s take a look at the 3 reasons that helped me arrived at $10,000</p>
+<p class="break break-subhead">Let’s take a look at the 3 reasons that helped me arrive at $10,000</p>
 
 <p class="subhead purple-light">One. Any less and it wasn’t worth the effort I was willing to invest.</p>
 
