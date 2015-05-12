@@ -3603,7 +3603,7 @@ body {
 
 
 a:link, a:visited		{
-  color: #5a8ebf;
+  color: #a972c1;
   text-decoration: none;
 }
 
@@ -3661,13 +3661,13 @@ ol {
 }
 
 a.name-domain {
-  color: #632586;
+  color: #701598;
   text-decoration: none;
   padding-right: 4px;
 }
 
 .name-blog {
-  color: #8aa6b3;
+  color: #a972c1;
 }
 
 /* 480px (6 cols) */
