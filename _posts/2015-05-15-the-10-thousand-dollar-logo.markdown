@@ -14,7 +14,7 @@ I can hear the gasps “Whoa, 10 thousand is ridiculous”. OK, sure I understan
 
 <p class="subhead purple-light">One. Any less and it wasn’t worth the effort I was willing to invest.</p>
 
-The most I’d ever charged was $1200. And at the time I thought that was good. I was wrong. Effort and investment and loosely coupled things. However, in my mind they both add up to value.
+The most I’d ever charged was $1200. And at the time I thought that was good. I was wrong. Effort and investment are loosely coupled things. However, in my mind they both add up to value.
 
 <br />
 
