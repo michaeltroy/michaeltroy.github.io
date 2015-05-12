@@ -25,9 +25,9 @@
 /* START. */
 
 body {
-  font-family: "aktiv-grotesk-std", courier, sans-serif;
+  font-family: "franklin-gothic-urw", courier, sans-serif;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 @media (max-width: 40em) {
@@ -56,7 +56,7 @@ p, h1, h2, h3, h4, h5, h6, a {
 }
 
 p {
-  color: rgb(32,32,32);
+
 	margin: 0;
 }
 
@@ -128,6 +128,29 @@ a.name-domain {
   text-align: center;
   font-weight: 400;
   margin: 0 0 16px 0;
+}
+
+.subhead {
+  text-indent: 0;
+}
+
+.break {
+  margin: 16px 0;
+}
+
+.break-subhead {
+  text-align: center;
+  text-indent: 0;
+  padding: 16px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.no-indent {
+  text-indent: 0;
+}
+
+.purple-light {
+  color: #a972c1;
 }
 
 @media (max-width: 40em) {
