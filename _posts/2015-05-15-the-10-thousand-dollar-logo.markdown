@@ -32,7 +32,7 @@ The client that pays me $10,000 for a logo values her business. And I value her 
 
 <p class="subhead purple-light">Three. The $10,000 number just felt right. Full stop.</p>
 
-The number just felt right and that is OK. There is nothing wrong with coming up with a nice round figure for no other reason that it’s the amount you want to charge. Forget people that say “Oh, but I could get that done for $300”. Forget them. If you want to charge $2000, fine, do that. See reason 2.
+The number just felt right and that is OK. There is nothing wrong with coming up with a nice round figure for no other reason than it’s the amount you want to charge. Forget people that say “Oh, but I could get that done for $300”. Forget them. If you want to charge $2,000, fine, do that. See reason 2.
 
 <br />
 
