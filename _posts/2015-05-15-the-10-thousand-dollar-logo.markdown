@@ -18,7 +18,7 @@ The most I’d ever charged was $1200. And at the time I thought that was good. 
 
 <br />
 
-<p class="subhead purple-light">Two. I simply placed a higher value on such work</p>
+<p class="subhead purple-light">Two. I simply placed a higher value on such work.</p>
 
 Value is a funny thing. Something of value to one person almost never has the same value to another. So start with your value. Is this throw-away work, or does it mean something more to you?
 
