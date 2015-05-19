@@ -22,6 +22,8 @@ Have I mentioned trademark law yet?
 
 Over the past couple of months I’ve been throwing around an idea I have for a startup. Yeah, of course I think it’s an incredible idea full of potential. Absolutely I do, just like everyone else. I do realize my failings here, thankfully. The reality is ideas are worthless without action.
 
+<br />
+
 Back to naming. Enter the word “haunt”. You know, that plain old dictionary word — haunt. This was the perfect name that I’d come up with for my fictional startup. One syllable. Short and sweet. Also I managed to obtain ownership of haunt.co, lovely! My startup would be firmly placed in the travel space, so haunt for me, was an excellent name that had a lot of brand potential.
 
 Not so fast. I performed a trademark search _after_ I had thrown  down a small sum to acquire this spooky domain name. Yeah, after. Make sure you do a search before anything else.
