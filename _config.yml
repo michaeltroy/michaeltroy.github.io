@@ -1,11 +1,13 @@
 # Site settings
-title: "Michael in Beta | Design, code and startups | Newcastle Australia"
-email: michael@metaset.com.au
-description: > # this means to ignore newlines until "baseurl:"
-  Michael in Beta is a blog about web design, UX, code and startups.
-  Written by Michael Troy from Newcastle Australia.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://michaelinbeta.com" # the base hostname & protocol for your site
+title:            "Michael in Beta | Design, code and startups | Newcastle Australia"
+email:            michael@metaset.com.au
+description:      "Michael in Beta is a blog about web design, UX, code and startups. Written by Michael Troy from Newcastle Australia."
+baseurl: ""
+url:              "http://michaelinbeta.com"
+production_url:   www.michaelinbeta.com
+permalink:        :title
+post_dirs:        false
+
 twitter_username: michaeltroy
 github_username:  michaeltroy
 
@@ -29,6 +31,3 @@ exclude:
     design/gulpfile.js,
     design/package.json,
     design/README.md]
-
-permalink: /:categories/:title
-post_dirs: false

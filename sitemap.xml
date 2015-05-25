@@ -1,29 +1,17 @@
+---
+layout: nil
+title : Sitemap
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://michaelinbeta.com/</loc>
-  <lastmod>2015-05-20T04:37:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://michaelinbeta.com/3-weird-design-tricks/</loc>
-  <lastmod>2015-05-20T04:37:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://michaelinbeta.com/naming-a-startup/</loc>
-  <lastmod>2015-05-20T04:37:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://michaelinbeta.com/the-10-thousand-dollar-logo/</loc>
-  <lastmod>2015-05-20T04:37:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for post in site.posts %}
+    <url>
+        <loc>{{site.production_url}}{{ post.url }}</loc>
+    </url>
+{% endfor %}
+{% for page in site.pages %}
+    <url>
+        <loc>{{site.production_url}}{{ page.url }}</loc>
+    </url>
+{% endfor %}
 </urlset>
