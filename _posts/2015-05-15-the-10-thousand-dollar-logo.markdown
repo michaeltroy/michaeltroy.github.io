@@ -6,6 +6,8 @@ date:   2015-05-15
 
 It’s kinda odd the things that pop into your head at 2am on a Tuesday morning while trying to sleep. This time it was why I’d never design a logo for less than $5,000. Yeah I know, a fairly random thought. Anyways, why the number $5,000? I reasoned it simply wasn’t worth the effort I'd want to invest in such a project. I’m talking proper logo design development, you know the kind of design work that is accompanied with usage guidelines and variations. It just didn’t reconcile.
 
+<!--more-->
+
 I held that $5,000 number in my mind for a brief moment, only to bump the figure to $10,000. Yeah, that felt about right to me.
 
 I can hear the gasps “Whoa, 10 thousand is ridiculous”. OK, sure I understand that but I’ll put it this way, I can guarantee with 100% certainty there are many designers out there that would be inversely horrified and would say that $10,000 isn’t nearly enough. Fair I say.

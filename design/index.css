@@ -20,6 +20,25 @@ body {
   /* background-color: #f5fafa; */
 }
 
+.michael-yo {
+  background: url(../../assets/michael-troy.jpg);
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  display: inline-block;
+}
+
+@media (max-width: 40em) {
+
+  .michael-yo {
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+}
+
 .highlight {
   overflow: auto;
 }

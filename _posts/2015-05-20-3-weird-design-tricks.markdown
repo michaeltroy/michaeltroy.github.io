@@ -4,13 +4,12 @@ title:  "3 weird design tricks"
 date:   2015-05-20
 ---
 
-<p class="break break-subhead">The 1-2-3 design rule to make anyone an instant designer</p>
-
-<br />
 
 Anyone can better their design skills. I really believe that. I’m not talking about becoming the next [Stefan Sagmeister](http://en.wikipedia.org/wiki/Stefan_Sagmeister), rather this is about feeling more confident the next time you’re putting together a presentation or formatting a document.
 
 During my years as a designer I’ve given the same advice to plenty of non-designers that could use some simple design guidance; the 1-2-3 rule.
+
+<!--more-->
 
 <br />
 

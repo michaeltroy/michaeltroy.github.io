@@ -12,6 +12,8 @@ In short, the general advice seems to be that a good name be no more than two sy
 
 If you can’t manage that, not to worry, just slap “ly” on the end and everything is sunshine and rainbows. Actually, I’d really encourage anyone that was honestly contemplating the ly approach to be a bit more creative. You really can do it. As hard of a task naming is, put in that extra effort. It’ll be worth it. I promise.
 
+<!--more-->
+
 Have I mentioned trademark law yet?
 
 <br />

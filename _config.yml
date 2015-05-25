@@ -17,6 +17,9 @@ markdown: kramdown
 # Syntax highlighting
 highlighter: pygments
 
+# Post formatting
+excerpt_separator: <!--more-->
+
 # Timezone
 timezone: Australia/Sydney
 

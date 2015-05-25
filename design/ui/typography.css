@@ -161,7 +161,7 @@ a.name-domain {
     margin: 0 0 0 0;
   }
 
-  .post-date {
+  .post-date, .post-link {
     text-align: left;
   }
 }
