@@ -43,7 +43,7 @@ body {
 
 
 a:link, a:visited		{
-  color: #a972c1;
+  color: #2cb5e2;
   text-decoration: none;
 }
 
@@ -101,13 +101,13 @@ ol {
 }
 
 a.name-domain {
-  color: #701598;
+  color: #8b4eb0;
   text-decoration: none;
   padding-right: 4px;
 }
 
 .name-blog {
-  color: #a972c1;
+  color: #f280c6;
 }
 
 /* 480px (6 cols) */
@@ -167,11 +167,11 @@ a.name-domain {
 }
 
 .highlight {
-  background: #fffdbd;
+  background: #f9e79e;
 }
 
 .post-date {
-  color: #778799;
+  color: #96a2b0;
 }
 
 .post-content {
@@ -279,6 +279,10 @@ pre {
 /** --------------------------------
  * Footer.
  */
+
+ a.twitter {
+  color: #2ecc71;
+ }
 
 .copyright, .rss-subscribe {
   text-indent: 0;

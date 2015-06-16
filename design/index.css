@@ -70,6 +70,12 @@ body {
   line-height: 20px
 }
 
+hr {
+  border: 0;
+  height: 0;
+  border-top: 3px solid #ebedee;
+}
+
 @media (min-width: 0em) {
 
 }
