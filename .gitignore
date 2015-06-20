@@ -2,3 +2,5 @@ _site
 design/.sass-cache
 design/out/.module-cache
 design/components
+design/node_modules
+npm-debug.log

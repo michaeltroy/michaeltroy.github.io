@@ -1,13 +1,20 @@
 {
-  "name": "tiny-build",
+  "name": "michael-in-beta",
   "version": "0.0.1",
-  "description": "Proof of concept. A tiny build.",
+  "description": "Michael inBeta blog.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "duo": "0.11.4",
+    "duo-autoprefixer": "1.1.0",
+    "velocity-animate": "1.2.2"
+  },
   "scripts": {
-    "boot": "npm run duo && npm run watch",
-    "watch": "npm run duo-watch",
+    "boot": "npm install && npm run duo && npm run watch",
+    "build": "npm run duo && npm run watch",
     "duo": "duo *.{js,css}",
-    "duo-watch": "duo -g app --watch *.{js,css}"
+    "duo-watch": "duo -g app --watch *.{js,css}",
+    "watch": "npm run duo-watch",
+    "clean": "rm -rf build components out",
+    "wipe": "npm run clean && rm -rf node_modules"
   }
 }

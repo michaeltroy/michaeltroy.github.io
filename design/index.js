@@ -1,11 +1,5 @@
-/** 
- * Grab a package from GitHub with Duo. 
- */
-
-var slide = require('michaeltroy/carousel-slide');
-
-/** 
- * Simple module exports. 
+/**
+ * Simple module exports.
  */
 
 var Eric = {

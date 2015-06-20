@@ -2,15 +2,16 @@
  * Remotes styles.
  */
 
-@import 'nib-styles/responsive-grid';
+@import 'michaeltroy/responsive-grid';
+@import 'necolas/normalize.css';
 
 /**
  * Local styles.
  */
 
 @import './ui/pygments.css';
-@import './ui/grid-heights.css';
 @import './ui/typography.css';
+@import './ui/form.css';
 
 /**
  * Meta-local styles.
@@ -71,9 +72,11 @@ body {
 }
 
 hr {
+  width: 50%;
+  margin: 0 auto;
   border: 0;
   height: 0;
-  border-top: 3px solid #ebedee;
+  border-top: 2px solid #ebedee;
 }
 
 @media (min-width: 0em) {

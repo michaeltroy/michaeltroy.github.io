@@ -30,6 +30,7 @@ encoding: utf-8
 exclude:
     [project,
     design/components,
+    design/ui,
     design/node_modules,
     design/gulpfile.js,
     design/package.json,
