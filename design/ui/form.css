@@ -78,8 +78,8 @@
   transition: background all 1s;
 }
 
-.subscribe-form_submit button:hover {
-  background: #229955;
+.subscribe-form_submit input:hover {
+  background: #29b765;
 }
 
 input.parsley-success {
