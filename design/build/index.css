@@ -665,6 +665,10 @@ ol {
   list-style-position: inside;
 }
 
+strong {
+  font-weight: 500;
+}
+
 /** --------------------------------
  * Header
  */
@@ -723,7 +727,7 @@ a.name-domain {
 }
 
 .purple-light {
-  color: #a972c1;
+  color: #8b4eb0;
 }
 
 @media (max-width: 40em) {
@@ -1006,6 +1010,23 @@ input.parsley-error {
   0%       { bottom:0; }
   50%      { bottom:5px; }
   100%     {bottom:0;}
+}
+
+.exhibit_image {
+  text-indent: 0;
+  text-align: center;
+}
+
+.exhibit_image img {
+  width: 80%;
+  box-shadow: 0 0 16px #94aab0
+}
+
+
+.exhibit_image_caption {
+  font-size: 14px;
+  color: #94aab0;
+  padding: 8px 0 0 0;
 }
 
 

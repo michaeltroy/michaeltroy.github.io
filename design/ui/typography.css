@@ -92,6 +92,10 @@ ol {
   list-style-position: inside;
 }
 
+strong {
+  font-weight: 500;
+}
+
 /** --------------------------------
  * Header
  */
@@ -150,7 +154,7 @@ a.name-domain {
 }
 
 .purple-light {
-  color: #a972c1;
+  color: #8b4eb0;
 }
 
 @media (max-width: 40em) {

@@ -1,0 +1,16 @@
+.exhibit_image {
+  text-indent: 0;
+  text-align: center;
+}
+
+.exhibit_image img {
+  width: 80%;
+  box-shadow: 0 0 16px #94aab0
+}
+
+
+.exhibit_image_caption {
+  font-size: 14px;
+  color: #94aab0;
+  padding: 8px 0 0 0;
+}
